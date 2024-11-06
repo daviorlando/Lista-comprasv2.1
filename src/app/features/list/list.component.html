@@ -1,0 +1,30 @@
+<div class="action-container">
+    <a mat-raised-button color="primary" [routerLink]="['/create-product']">Criar produto</a>
+</div>
+<h5>Comprados</h5>
+@for (product of purchasedProducts(); track product.id) {
+@defer (on immediate) {
+<div class="item-container">
+    <app-card [product]="product" (edit)="onEdit(product)" (delete)="onDelete(product)">
+    </app-card>
+</div>
+}
+}
+<br><br>
+<h5 >Não Comprados</h5>
+@for (product of nonPurchasedProducts(); track product.id) {
+@defer (on immediate) {
+<div class="item-container">
+    <app-card [product]="product" (edit)="onEdit(product)" (delete)="onDelete(product)">
+    </app-card>
+</div>
+}
+}
+
+
+@empty {
+@defer (on immediate) {
+
+}
+}
+

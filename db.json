@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": "2885",
+      "title": "aquele",
+      "compra": false,
+      "userId": "google-oauth2|111316328831484431871"
+    },
+    {
+      "id": "5b07",
+      "title": "geladeira",
+      "compra": false,
+      "userId": "github|135132189"
+    },
+    {
+      "id": "c8a9",
+      "title": "juliete",
+      "compra": true,
+      "userId": "google-oauth2|111316328831484431871"
+    },
+    {
+      "id": "4336",
+      "title": "comprimido",
+      "compra": true,
+      "userId": "github|135132189"
+    },
+    {
+      "id": "7382",
+      "title": "asasdasd",
+      "compra": false,
+      "userId": "google-oauth2|102041585191830087261"
+    }
+  ]
+}
