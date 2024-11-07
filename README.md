@@ -8,25 +8,25 @@ Este é um projeto simples de Lista de Compras desenvolvido com Angular 18. Ele 
 - O usuário pode adicionar novos itens na lista através de um campo de texto.
 - Os itens são adicionados dinamicamente e aparecem diretamente na interface.
 
-### 6. Autenticação com Auth0
+### 2. Autenticação com Auth0
 - Login e logout através do Auth0 para acesso seguro.
 - Exibição de uma mensagem personalizada para usuários não autenticados.
 - Permissão para que cada usuário visualize, adicione e edite apenas sua própria lista.
 - Proteção de rotas e exibição de mensagens para sessões expiradas.
 
-### 2. Edição de Itens
+### 3. Edição de Itens
 - O usuário pode editar os itens da lista clicando em um ícone de edição ao lado do item.
 - As alterações são atualizadas em tempo real na lista.
 
-### 3. Marcar como Comprado
+### 4. Marcar como Comprado
 - Cada item pode ser marcado como "comprado", alterando visualmente a cor ou o estilo do item na lista.
 - Itens comprados e não comprados são exibidos separadamente.
 
-### 4. Agrupamento por Status
+### 5. Agrupamento por Status
 - A lista separa automaticamente os itens "Comprados" dos "Não Comprados".
 - Ambos os grupos são exibidos na mesma página, proporcionando uma visualização clara e organizada.
 
-### 5. Exclusão de Itens
+### 6. Exclusão de Itens
 - O usuário pode excluir qualquer item da lista clicando no ícone de "lixeira" ao lado do item.
 - Após a exclusão, o item desaparece imediatamente da lista.
 
