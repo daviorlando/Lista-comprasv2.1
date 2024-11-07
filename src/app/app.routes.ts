@@ -1,9 +1,8 @@
-import {
-    Routes,
-} from '@angular/router';
+import { Routes } from '@angular/router';
 import { ListComponent } from './features/list/list.component';
 import { getProducts } from './shared/resolvers/get-products.resolver';
 import { getProduct } from './shared/resolvers/get-product.resolver';
+import { NotFoundComponent } from './shared/interceptors/not-found/not-found.component';
 
 export const routes: Routes = [
     {
@@ -28,5 +27,8 @@ export const routes: Routes = [
         loadComponent: () =>
             import('./features/edit/edit.component').then((m) => m.EditComponent),
     },
-    
+    {
+        path: '**', // Rota para caminhos inexistentes
+        component: NotFoundComponent,
+    },
 ];
